@@ -1,0 +1,13 @@
+# welcome API
+GET http://localhost:8000/ HTTP/1.1
+
+# post user data
+
+POST http://localhost:8000/users HTTP/1.1
+content-type: application/json
+
+{
+    "id": 2893,
+    "email": "pathare@mail.com",
+    "password": "imking98"
+}
